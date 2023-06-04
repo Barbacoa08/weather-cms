@@ -14,6 +14,7 @@ export const Header = () => {
   const isHome = path === "/";
   const isExample = path === "/example";
   const isTest1 = path === "/example/test1";
+  const isWeather = path === "/weather";
 
   return (
     <header className={styles.header}>
@@ -46,7 +47,7 @@ export const Header = () => {
 
         <li>
           <Link
-            className={clsx({ [styles.active]: isExample })}
+            className={clsx({ [styles.active]: isWeather })}
             href="/weather"
           >
             55104 Weather

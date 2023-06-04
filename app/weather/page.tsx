@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default async function Example() {
   const url = process.env.WEATHERAPI;
   const apiKey = process.env.WEATHERAPIKEY;
@@ -22,7 +24,7 @@ export default async function Example() {
       <h1>{location} Weather</h1>
 
       <h2>
-        Current Conditions <img src={icon} alt="Conditions Icon" />
+        Current Conditions <Image src={icon} alt="Conditions Icon" />
       </h2>
 
       <p>
