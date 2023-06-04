@@ -43,6 +43,15 @@ export const Header = () => {
             example test1
           </Link>
         </li>
+
+        <li>
+          <Link
+            className={clsx({ [styles.active]: isExample })}
+            href="/weather"
+          >
+            55104 Weather
+          </Link>
+        </li>
       </ul>
     </header>
   );
