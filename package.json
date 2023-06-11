@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "all": "pnpm i && pnpm run lint && pnpm run build",
+    "github": "pnpm i && pnpm run lint",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
