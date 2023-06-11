@@ -2,7 +2,7 @@ name: CI (lint+build+tests)
 on: [pull_request]
 jobs:
   build:
-    name: install PNPM, then run `pnpm all`
+    name: install PNPM, then run `pnpm github`
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,5 +34,5 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: run `pnpm all`
-        run: pnpm all
+      - name: run `pnpm github`
+        run: pnpm github
