@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@payloadcms/next-payload':
-    specifier: 0.0.26
-    version: 0.0.26(payload@1.8.5)(webpack@4.46.0)
+    specifier: 0.0.27
+    version: 0.0.27(payload@1.8.5)(webpack@4.46.0)
   '@types/node':
     specifier: 20.2.5
     version: 20.2.5
@@ -733,8 +733,8 @@ packages:
       fastq: 1.15.0
     dev: false
 
-  /@payloadcms/next-payload@0.0.26(payload@1.8.5)(webpack@4.46.0):
-    resolution: {integrity: sha512-2Pe3a1wGpJh/I9A3KweX/HbdQkCQC3a4X2ugHrpmCD7NlUXmSZzBt3qXECFvJTrPZiSMltZO3+vJXbsGnp2zcQ==}
+  /@payloadcms/next-payload@0.0.27(payload@1.8.5)(webpack@4.46.0):
+    resolution: {integrity: sha512-WMNCK47m9VR2ejE+prTcgAt23AskJG90QtK+RED9sx0/cPFpZOhCHufM9o4y/2GsyLgmvl3y47rPlYiicey4xA==}
     hasBin: true
     peerDependencies:
       payload: ^1.7.1
@@ -1767,6 +1767,7 @@ packages:
 
   /bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     dev: false
@@ -3823,6 +3824,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -5660,6 +5662,7 @@ packages:
 
   /nan@2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     dev: false
     optional: true
 
