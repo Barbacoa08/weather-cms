@@ -13,6 +13,7 @@ export const Header = () => {
   const path = usePathname();
   const isHome = path === "/";
   const isExample = path === "/example";
+  const isTest1 = path === "/example/test1";
   const isWeather = path === "/weather";
 
   return (
@@ -32,6 +33,15 @@ export const Header = () => {
             href="/example"
           >
             example
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            className={clsx({ [styles.active]: isTest1 })}
+            href="/example/test1"
+          >
+            example test1
           </Link>
         </li>
 
